@@ -1,0 +1,38 @@
+body {
+  margin: 0rem;
+  min-height: 100%;
+  background-color: rgb(82, 78, 78);
+}
+
+.card {
+  padding: 0em;
+  margin: 0em;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 20px;
+  margin-top: 4rem;
+  background-color: rgb(181, 170, 157);
+  min-height: 600px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin: 1px;
+}
+
+.pagination button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
